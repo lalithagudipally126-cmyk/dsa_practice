@@ -19,7 +19,7 @@ else:
 #so if the list is empty, if len(arr) ==0, checks the length prints that there are no elements
 #if there is one element, for example 1
 #it will be assigned t num1, smallest element
-#if arr[i] < num1 first check if the current element is smaller than num1, since there is only one element, it will be the current element and it will be equal , not smaller, so num2 stays none, it checks the elif, condition, elif condition first checks if it is larger than num1, it is not, it would be equal, and num2 is still none, which is checked in the second part, but since it is and and one condition is failed, the whole condition is skipped, so num2 still stays none. then we check if num2 is none, if it is we print that second smallest doesn't exist
+#if arr[i] < num1 first check if the current element is smaller than num1,  since there is only one element, it will be the current element and it will be equal , not smaller, so num2 stays none, it checks the elif, condition, elif condition first checks if it is larger than num1, it is not, it would be equal, and num2 is still none, which is checked in the second part, but since it is and and one condition is failed, the whole condition is skipped, so num2 still stays none. then we check if num2 is none, if it is we print that second smallest doesn't exist
 #suppose we have an array 3 1 2
 #first we check if the list/array is empty, it is not, so we proceed
 #so first element is assigned to num1
